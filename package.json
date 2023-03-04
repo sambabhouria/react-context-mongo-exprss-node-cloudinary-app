@@ -1,0 +1,28 @@
+{
+  "name": "mern-context",
+  "version": "1.0.0",
+  "description": "mongo node react create update delete using react context",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server--watch server",
+    "debug": "nodemon --inspect server --watch server",
+    "build:frontend": "npm run build --prefix client",
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.35.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^11.1.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
